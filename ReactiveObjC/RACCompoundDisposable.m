@@ -7,7 +7,6 @@
 //
 
 #import "RACCompoundDisposable.h"
-#import "RACCompoundDisposableProvider.h"
 #import <pthread/pthread.h>
 
 // The number of child disposables for which space will be reserved directly in
