@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source = { git: "https://github.com/ReactiveCocoa/ReactiveObjC.git",
                tag: s.version }
 
-  s.source_files          = "ReactiveObjC/*.{h,m,d}",
+  s.source_files          = "ReactiveObjC/*.{h,m}",
                             "ReactiveObjC/extobjc/*.{h,m}"
 
   s.private_header_files  = "**/*Private.h",
